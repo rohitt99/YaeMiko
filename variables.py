@@ -17,18 +17,18 @@ class Config(object):
     DATABASE_URL = "postgres://ierjlkr:OG4dxzO67Zret3Zii43Hhvujkg89WVry0n9KsHE@karma.db.elephantsql.com/ierjlkr"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -1001685997694
-    MESSAGE_DUMP = -1001685997694
+    EVENT_LOGS = -1001977784654
+    MESSAGE_DUMP = -1001977784654
 
     # MongoDB configuration
     MONGO_DB_URI = "mongodb+srv://t45:t45@cluster0.plfylpo.mongodb.net/?retryWrites=true&w=majority"
 
     # Support chat and support ID
-    SUPPORT_CHAT = "𝗜𝗡𝗙𝗜𝗡𝗜𝗧𝗘 𝗖𝗛𝗔𝗧𝗧𝗘𝗥𝗦 ⚡️♾️"
-    SUPPORT_ID = -1001685997694
+    SUPPORT_CHAT = "⚡️𝑰𝒎𝒑𝒆𝒓𝒊𝒍𝒎𝒆𝒏𝒕 SUPPORT⚡️"
+    SUPPORT_ID = -1001977784654
 
     # Database name
-    DB_NAME = "MikoDB"
+    DB_NAME = "𝑰𝒎𝒑𝒆𝒓𝒊𝒍𝒎𝒆𝒏𝒕"
 
     # Bot token
     TOKEN = "7076111479:AAFRuKfDEHWnhhvkj3QvEF4clIawDJQVdLc"  # Get bot token from @BotFather on Telegram
