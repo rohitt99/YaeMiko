@@ -10,31 +10,31 @@ class Config(object):
 
     # <================================================ REQUIRED ======================================================>
     # Telegram API configuration
-    API_ID = 6433468  # Get this value from my.telegram.org/apps
-    API_HASH = "7895dfd061f656367ccab30032"
+    API_ID = 25830228  # Get this value from my.telegram.org/apps
+    API_HASH = "a23a5133bddbdab87df3df06ccf63a89"
 
     # Database configuration (PostgreSQL)
     DATABASE_URL = "postgres://ierjlkr:OG4dxzO67Zret3Zii43Hhvujkg89WVry0n9KsHE@karma.db.elephantsql.com/ierjlkr"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -1001629811868
-    MESSAGE_DUMP = -1001629811868
+    EVENT_LOGS = -1001685997694
+    MESSAGE_DUMP = -1001685997694
 
     # MongoDB configuration
     MONGO_DB_URI = "mongodb+srv://t45:t45@cluster0.plfylpo.mongodb.net/?retryWrites=true&w=majority"
 
     # Support chat and support ID
-    SUPPORT_CHAT = "ProjectCodeXSupport"
-    SUPPORT_ID = -1001629811868
+    SUPPORT_CHAT = "𝗜𝗡𝗙𝗜𝗡𝗜𝗧𝗘 𝗖𝗛𝗔𝗧𝗧𝗘𝗥𝗦 ⚡️♾️"
+    SUPPORT_ID = -1001685997694
 
     # Database name
     DB_NAME = "MikoDB"
 
     # Bot token
-    TOKEN = "2323839365:AAFgfdadqawlfdsM7slOa33eM_ghop"  # Get bot token from @BotFather on Telegram
+    TOKEN = "7076111479:AAFRuKfDEHWnhhvkj3QvEF4clIawDJQVdLc"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
-    OWNER_ID = 5907205317
+    OWNER_ID = 6722550550
     # <=======================================================================================================>
 
     # <================================================ OPTIONAL ======================================================>
