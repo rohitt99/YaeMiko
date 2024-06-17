@@ -77,7 +77,7 @@ if ENV:
     SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-100"))  # Support group id
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Ecstasy_Realm")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TOKEN = os.environ.get("TOKEN", 7076111479:AAFRuKfDEHWnhhvkj3QvEF4clIawDJQVdLc)
+    TOKEN = os.environ.get("TOKEN", None)
 
     # Read and validate integer variables
     try:
