@@ -59,16 +59,16 @@ ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
     # Read configuration from environment variables
-    API_ID = int(os.environ.get("API_ID", None))
-    API_HASH = os.environ.get("API_HASH", None)
+    API_ID = int(os.environ.get("API_ID", 25830228))
+    API_HASH = os.environ.get("API_HASH", a23a5133bddbdab87df3df06ccf63a89)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     DB_URI = os.environ.get("DATABASE_URL")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     BAN_STICKER = bool(os.environ.get("BAN_STICKER", True))
-    EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
+    EVENT_LOGS = os.environ.get("EVENT_LOGS", -1002241127611)
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
-    MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP", None)
+    MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP", -1001977784654)
     DB_NAME = os.environ.get("DB_NAME", "MikoDB")
     LOAD = os.environ.get("LOAD", "").split()
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI")
@@ -77,11 +77,11 @@ if ENV:
     SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-100"))  # Support group id
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Ecstasy_Realm")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", 7076111479:AAFRuKfDEHWnhhvkj3QvEF4clIawDJQVdLc)
 
     # Read and validate integer variables
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("OWNER_ID", 6722550550))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
